@@ -2,7 +2,8 @@
 /var/*
 /pub/media/catalog/*
 /pub/media/wysiwyg/*
-/pub
+/pub/static/*
 !/composer.json
 !/composer.lock
 !/README.md
+/app/etc/env.php
