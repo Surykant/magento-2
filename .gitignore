@@ -1,0 +1,15 @@
+/node_modules/*
+/var/*
+!/var/import/
+/app/etc/local.xml
+/media/topbrand/*
+/media/banner/*
+/media/homepage/*
+/media/adjconfigurable/*
+/media/part_diagrams/*
+/media/oem_manufacturer/*
+/media/fitment_manufacturer/*
+/media/tmp/*
+/media/catalog/product/*
+/media/catalog/category/resize/*
+/media/bannernext/*
