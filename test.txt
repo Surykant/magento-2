@@ -1,1 +1,2 @@
+this is test for undo commit and other things
 this is sample text
