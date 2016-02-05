@@ -15,6 +15,49 @@
 // Header class
 //
 
-.page-header {
-	background: @color-pink;
+
+
+& when (@media-common = true) { 
+
+	.page-footer {
+		background: @color-grey;
+		.footer.content {
+			border: 0px none;
+		}
+	}
+
 }
+
+
+
+@media only screen and (max-width: (@screen__xl - 1)) {
+	.page-header {
+		background: pink;
+	}
+}
+@media only screen and (max-width: (@screen__l - 1)) {
+	.page-header {
+		background: orange;
+	}
+}
+@media only screen and (max-width: (@screen__m - 1)) {
+	.page-header {
+		background: yellow;
+	}
+}
+@media only screen and (max-width: (@screen__s - 1)) {
+	.page-header {
+		background: blue;
+	}
+}
+@media only screen and (max-width: (@screen__xs - 1)) {
+	.page-header {
+		background: green;
+	}
+}
+@media only screen and (max-width: (@screen__xxs - 1)) {
+	.page-header {
+		background: red;
+	}
+}
+
