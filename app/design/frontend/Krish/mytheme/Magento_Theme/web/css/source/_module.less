@@ -144,7 +144,7 @@ body {
 
 .page-footer {
     margin-top: auto;
-    .lib-css(background-color, @footer__background-color);
+    background: @color-gray20;
 }
 
 .footer {
@@ -271,6 +271,7 @@ body {
                     &.welcome,
                     a {
                         line-height: 1.4;
+						color: @color-black;
                     }
                     &.welcome {
                         a {
@@ -282,12 +283,17 @@ body {
             }
         }
         &.content {
-            padding: @indent__l @indent__base 0;
+            padding: @indent__base/2  @indent__base/2 0;
             &:extend(.abs-add-clearfix-desktop all);
         }
     }
 
     .page-header {
+
+        .panel.wrapper {
+          background: url(../images/header-bg-pattern.png) repeat @color-gray20;
+        }
+     
         border: 0;
         margin-bottom: 0;
         
